@@ -1,0 +1,190 @@
+body {
+  font-family: 'Helvetica', sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
+  padding: 20px 35px 35px 35px;
+  background-color: #D3D3D3;
+}
+
+#logo {
+  margin-left: -10px;
+}
+
+h1, h2, h3 {
+  font-family: 'Titillium Web', sans-serif;
+}
+
+h1 {
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
+  width: 770px;
+}
+
+
+
+/*styling for main section*/
+
+
+.mainDiv {
+  position: relative;
+  background-color: white;
+  border: 1px outset #D3D3D3;
+  padding: 5px 40px 25px 30px;
+  width: 700px;
+  height: 272px;
+  margin-top: 30px;
+}
+
+.mainDiv h2 {
+  position: absolute;
+  top: 25px;
+  margin-top: 0px;
+  left: 445px;
+  max-width: 300px;
+}
+
+.mainDiv img {
+  width: 390px;
+  height: 240px;
+  margin-top: 25px;
+}
+
+.mainDiv p {
+  position: absolute;
+  top: 100px;
+  left: 445px;
+  max-width: 300px;
+  line-height: 25px;
+}
+
+
+/*styling for sub div sections*/
+
+.sub1Div, .sub2Div, .sub3Div {
+  position: absolute;
+  background-color: white;
+  border: 1px outset #D3D3D3;
+  padding: 5px 20px 20px 22px;
+  width: 200px;
+  height: 220px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.sub1Div img, .sub2Div img, .sub3Div img {
+  width: 195px;
+  height: 120px;
+  margin-top: 0px;
+}
+
+.sub2Div {
+  left: 307px;
+}
+
+.sub2Div img {
+  margin-top: 21px;
+}
+
+.sub3Div {
+  left: 570px;
+}
+
+h3 {
+  font-size: 15px;
+}
+
+/*end of sub div styling*/
+
+
+span {
+  color: #808080;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: #808080;
+}
+
+nav {
+  position: fixed;
+  top: 0px;
+  left: 688px;
+  margin-left: 175px;
+  width: 100%;
+  height: 100%;
+  border-left: 25px solid #353839;
+  background-color: white;
+  padding: 12px 50px 10px 0px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  padding-bottom: 20px;
+  margin-bottom: 50px;
+  border-bottom: 1px dashed black;
+  width: 180px;
+}
+
+footer {
+  position: absolute;
+  top: 495px;
+  left: 40px;
+  color: #808080;
+}
+
+/*modal style*/
+
+#modal {
+  position: fixed;
+  top: 50px;
+  left: 350px;
+  /*omitting this because I don't understand it, also not understanding how to screen out the site behind modal*/
+  /*top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);*/
+  background-color: white;
+  border-bottom: 50px solid #353839;
+  box-shadow: 5px 3px 4px 2px rgba(0, 0, 0, 0.5);
+  padding: 5px 30px 25px 30px;
+  width: 300px;
+  height: 280px;
+  margin-top: 40px;
+}
+
+#modal h1 {
+  font-size: 29px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid black;
+  width: 300px;
+}
+
+#modal input {
+  display: block;
+  margin-bottom: 15px;
+  margin-top: 5px;
+  width: 150px;
+}
+
+#close {
+  position: absolute;
+  left: 305px;
+  font-size: 17px;
+  padding-bottom: 10px;
+}
+
+#beaker {
+  position: absolute;
+  left: 265px;
+  top: 225px;
+  opacity: .8;
+}
